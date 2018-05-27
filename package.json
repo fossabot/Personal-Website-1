@@ -1,0 +1,31 @@
+{
+  "name": "luciano-nooijen-website",
+  "version": "1.0.0",
+  "description": "Website for Luciano Nooijen",
+  "main": "app.js",
+  "repository": "https://github.com/lucianonooijen/Personal-Website",
+  "author": "Luciano Nooijen <lucianonooijen@gmail.nl>",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "express": "^4.16.3",
+    "jest": "^22.4.3",
+    "next": "^6.0.0",
+    "node-sass": "^4.9.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
